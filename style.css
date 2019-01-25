@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    /*background: darkseagreen ;*/
+    background: url("zoo.jpg");
+    color: whitesmoke;
+}
+h4 {
+    color: red;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo!</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <h1> Zoo!</h1>
+<div> To add an animal to your zoo, select a species and enter a name. </div>
+<div>
+    <select id="animalSelector">
+        <option value="1">Tiger</option>
+        <option value="2">Bear</option>
+        <option value="3">Unicorn</option>
+        <option value="4">Giraffe</option>
+        <option value="5">Bee</option>
+    </select>
+</div>
+<br>
+<div>
+    <input type="text" placeholder="Name your animal!" id="animalName">
+    <button id="createAnimal" class="w3-button w3-grey w3-hover-green w3-round"> Create Animal! </button>
+</div>
+<br>
+    <div> Select a food to feed to all of the animals in your zoo!</div>
+    <br>
+<div>
+    <select id="foods">
+
+        <option value="2">meat</option>
+        <option value="3">leaves</option>
+        <option value="4">fish</option>
+        <option value="5">pollen</option>
+    </select>
+    <button id="feed" class="w3-button w3-grey w3-hover-green w3-round"> Feed! </button>
+</div>
+<br>
+<h3>ANIMALS IN YOUR ZOO:</h3>
+<div id="feedingFeed">
+    <table id="table" align="center" border="2" >
+        <tr>
+            <td>Name:</td>
+            <td>Species:</td>
+        </tr>
+    </table>
+</div>
+<h4>Click an animal to remove it from the zoo</h4>
+<br>
+<div id="myDiv"></div>
+<br>
+<div> LOG:</div>
+<div id="log"></div>
+</body>
+</html>
